@@ -10,7 +10,7 @@ if(time >= 12 && time < 18){
     image.setAttribute('src', "./files/entardecer.jpg")
     image.display
     
-} else if(time >= 18){
+} else if(time >= 18 || time <=5){
     body.style.background = 'rgb(54, 53, 53)'
     image.setAttribute('src', "./files/anoitecer.jpg")
 }
